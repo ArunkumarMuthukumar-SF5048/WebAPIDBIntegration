@@ -1,0 +1,16 @@
+1. commands
+    create vite app :               npm create vite@latest medicine-shop -- --template vanilla-ts
+    move terminal inside folder :   cd medicine-shop
+    install dependencies :          npm install
+    install vite :                  npm install vite --save-dev
+    to run app:                     npm run dev
+    install vite : 
+
+2. Organize to file structure 
+src/
+|-components/  <-- All your components (navbar, etc.)
+|-pages/       <-- All your pages (home, medicines, etc.)
+|-auth.ts      <-- Authentication logic (login, signup, etc.)
+├── main.ts           <-- Entry point
+├── models/         <-- Your models (User, MedicineInfo, etc.)
+├── style.css         <-- CSS
